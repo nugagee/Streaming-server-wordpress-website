@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming-server wordpress website</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="section">
+        <!-- <div class="checks">
+            <input type="checkbox" id="box-1" checked>
+            <input type="checkbox" id="box-2">
+            <input type="checkbox" id="box-3">
+            <input type="checkbox" id="box-4">
+        </div> -->
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <div class="logo">
+                        <img src="https://streaming-server.net/templates/nrghost/images/logo.png" alt="NRGHost">
+                        <a href="./index.html">Home</a>
+                        <a href="./faq.html">FAQ</a>
+                        <a href="./contact-us.html">Contact us</a>
+                    </div>
+                    <div class="login">
+                        <p><b>24/7</b> Customer Support</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq">
+                    <h2>FAQs</h2>
+                    <p>General Questions about the servers</p>
+                    <div class="accord">
+                        <button class="accordion">What is uptime of servers ?</button>
+                        <div class="panel">
+                        <p>Servers are down for some reason. Uptime is average running of provided servers until replaced</p>
+                        </div>
+
+                        <button class="accordion">Why servers down?</button>
+                        <div class="panel">
+                        <p>This is private providing of unused server from several popular datacenter. if DCMA reported or with some reason , it can be stopped. Once stopped ,we provide server as soon as possible</p>
+                        </div>
+
+                        <button class="accordion">Why multiple servers are good ?</button>
+                        <div class="panel">
+                        <p>Several servers are not down at the same time. so we recommend you purchase several servers with different kind like</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        
+        <div class="footers">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-cards">
+                        <div class="footer-card">
+                            <a class="social-icon" style="background-color: #3b5998;" href="https://www.facebook.com/Streaming-Server-109848571281534" target="_blank">
+                                <img src="https://streaming-server.net/templates/nrghost/images/icon-17.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="footer-card">
+                            <a class="social-icon" style="background-color: #e02f2f;" href="https://www.youtube.com/watch?v=1xGHHg31x9E" target="_blank">
+                                <img src="https://streaming-server.net/templates/nrghost/images/icon-18.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="footer-card">
+                            <a class="social-icon" style="background-color: #55acee;" href="#" target="_blank">
+                                <img src="https://streaming-server.net/templates/nrghost/images/icon-19.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="footer-card">
+                            <a class="social-icon" style="background-color: #007bb5;" href="https://www.linkedin.com/company/streaming-server-net" target="_blank">
+                                <img src="https://streaming-server.net/templates/nrghost/images/icon-20.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="foo-copy">
+                        <div class="foo-nav">
+                                <a href="https://streaming-server.net/pages/terms">Terms and Conditions</a>
+                                <a href="https://streaming-server.net/pages/privacy">Privacy Policy</a>
+                        </div>
+                        <div class="copyright">© 2021 All rights reserved. Streaming Server Network , <br/>LLC
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footers2">
+            <div class="container">
+                 <div class="footer2-cards">
+                    <div class="footer2-card">
+                        <img src="https://streaming-server.net/templates/nrghost/images/icon-22.png" alt="" />
+                        <div class="cell-view">Skype <br/>live:network_designer</div>
+                    </div>
+                    <div class="footer2-card">
+                        <img src="https://streaming-server.net/templates/nrghost/images/icon-23.png" alt="" />
+                        <div class="cell-view"><a href="mailto:support@streaming-server.net">support@streaming-server.net</a>
+                            </div>
+                    </div>
+                    <div class="footer2-card">
+                        <img src="https://streaming-server.net/templates/nrghost/images/icon-24.png" alt="" />
+                        <div class="cell-view"><a href="tel:+17024229157">+1 702-422-9157</a></div>
+                    <div class="footer2-card">
+                        <img src="https://streaming-server.net/templates/nrghost/images/icon-25.png" alt="" />
+                        <div class="cell-view"><a href="#">Live Chat</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // const switch1 = document.getElementById("one");
+        // const switch2 = document.getElementById("two");
+        // const switch3 = document.getElementById("three");
+        // const switch4 = document.getElementById("four");
+        // const slide = document.querySelector(".section .slides");
+
+        // // switch1.onclick = () => {
+        // //     slide.style.margin-left = 100%;
+        // // }
+        // switch1.addEventListener("click", () => {
+        //     slide.style.background = red;
+        // });
+        // switch2.addEventListener("click", () => {
+        //     slide.style.margin-left = -100%;
+        // });
+        // switch3.addEventListener("click", () => {
+        //     slide.style.margin-left = -200%;
+        // });
+        // switch4.addEventListener("click", () => {
+        //     slide.style.margin-left = -300%;
+        // });
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            };
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+        }
+    </script>
+</body>
+</html>
